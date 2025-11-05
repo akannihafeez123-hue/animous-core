@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+python-dotenv
+openai
+langchain
+faiss-cpu
+python-telegram-bot==20.3
