@@ -1,0 +1,20 @@
+# Core runtime
+python-telegram-bot==20.3
+requests>=2.28
+beautifulsoup4>=4.12
+
+# Local embeddings (preferred fallback)
+sentence-transformers>=2.2
+torch>=2.0
+
+# Optional vector DB (FAISS) for better similarity search; install only if you need it
+faiss-cpu>=1.7
+
+# Anthropic (Claude) integration fallback
+langchain-anthropic>=0.0.22
+
+# LangChain core (lightweight usage for helper types if needed)
+langchain>=0.1.0
+
+# Environment helper
+python-dotenv>=1.0
