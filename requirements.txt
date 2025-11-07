@@ -1,0 +1,16 @@
+# Core
+Flask==2.3.2
+requests==2.31.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.3.2
+joblib==1.3.2
+python-dotenv==1.0.0
+pyTelegramBotAPI==4.12.0
+
+# Optional / ML
+# Uncomment if you need TensorFlow (large install)
+# tensorflow==2.14.0
+
+# Optional Bitget maintained client (use instead of the minimal helper if preferred)
+# git+https://github.com/airyou-code/bitget-api-python.git
